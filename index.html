@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Survey Form</title>
+</head>
+<body bgcolor="E0FFFF">
+    <!--Section 1 starts-->
+    <section>
+        <h1>Event Feedback Survey</h1>
+        <form action="#">
+            <label for="ename">Event Name:</label><br>
+            <input type="text" id="ename" class="ename" placeholder="Enter Event Name"><br><br>
+            <label for="yname">Your Name:</label><br>
+            <input type="text" id="yname" class="yname" placeholder="Enter Your Name"><br><br><br>
+            <label for="rating">Overall rating:</label><br>
+            <select name="rating" id="rating">
+                <option value="Excellent" selected>Excellent</option>
+                <option value="Good" >Good</option>
+                <option value="Average" >Average</option>
+                <option value="Poor" >Poor</option>
+                <option value="Very Poor" >Very Poor</option>
+            </select>
+
+            <p>Would you recommend this event to others?</p>
+            <input type="radio" name="yesorno" id="yesorno">
+            <label for="yesorno">Yes</label><br>
+            <input type="radio" name="yesorno" id="yesorno">
+            <label for="yesorno">No</label><br><br>
+
+            <label for="textarea">Additional Comments:</label><br>
+            <textarea name="textarea" id="textarea" cols="50" rows="5" placeholder="Enter Additional Contents"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <!--Section 1 ends-->
+    <hr>
+
+    <!--Employee Satisfaction Survey Section Starts-->
+    <section>
+        <h1>Employee Satisfaction Survey</h1>
+        <form action="#">
+            <label for="ename">Employee Name:</label><br>
+            <input type="text" id="ename" class="ename" placeholder="Enter Employee Name" required><br><br>
+            <label for="dept">Department:</label><br>
+            <input type="text" id="dept" class="dept" placeholder="Enter Your Department" required><br><br><br>
+
+            <label >How satisfied are you with your job?</label><br>
+            <input type="radio" name="yesorno" id="yesorno">
+            <label for="satisfied">Very Satisfied</label><br>
+            <input type="radio" name="yesorno" id="yesorno">
+            <label for="satisfied">Satisfied</label><br>
+            <input type="radio" name="yesorno" id="yesorno">
+            <label for="satisfied">Neutral</label><br>
+            <input type="radio" name="yesorno" id="yesorno">
+            <label for="satisfied">Dissatisfied</label><br>
+            <input type="radio" name="yesorno" id="yesorno">
+            <label for="satisfied">Very Dissatisfied</label><br><br>
+
+            <label for="rate">Overall rating:</label><br>
+            <select name="rate" id="rate">
+                <option value="Excellent" selected>Excellent</option>
+                <option value="Good" >Good</option>
+                <option value="Average" >Average</option>
+                <option value="Poor" >Poor</option>
+            </select>
+            <br><br>
+            <label for="Textarea">Suggessions for Improvement:</label><br>
+            <textarea name="textarea" id="Textarea" cols="50" rows="5" placeholder="Enter Suggessions for Improvement"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <!--Employee Satisfaction Survey Section Ends-->
+</body>
+</html>
