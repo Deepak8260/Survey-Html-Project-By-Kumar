@@ -1,6 +1,6 @@
 Below are the deployment links of this Project
 
-GitHub Pages- https://deepak8260.github.io/Event-Invitition-using-HTML-by-Kumar/
+GitHub Pages- https://deepak8260.github.io/Survey-Html-Project-By-Kumar/
 
 Netlify - https://kumarai-survey-html.netlify.app/
 
